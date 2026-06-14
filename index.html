@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tempo — a modern men's fashion landing page designed and developed by Rami Almohamad." />
+  <title>Tempo | Modern Men's Fashion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a href="#top" class="brand" aria-label="Tempo home">
+        <span class="brand-mark">T</span>
+        <span>Tempo</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#values">Values</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#shop">Shop Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-padding">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">New Season 2026</span>
+          <h1>Not just another clothing brand for men.</h1>
+          <p>
+            Tempo creates clean, confident menswear for everyday movement — premium essentials,
+            sharp silhouettes, and modern comfort in one stylish experience.
+          </p>
+          <div class="hero-actions">
+            <a href="#shop" class="btn btn-primary">Explore Collection</a>
+            <a href="#about" class="btn btn-secondary">Our Story</a>
+          </div>
+          <div class="hero-stats" aria-label="Tempo highlights">
+            <div>
+              <strong class="counter" data-target="42">0</strong>
+              <span>New items</span>
+            </div>
+            <div>
+              <strong class="counter" data-target="24">0</strong>
+              <span>Hour shipping</span>
+            </div>
+            <div>
+              <strong class="counter" data-target="98">0</strong>
+              <span>% happy clients</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="image-stack">
+            <img class="main-img" src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1200&q=80" alt="Stylish man wearing modern fashion" />
+            <img class="floating-img top" src="https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=700&q=80" alt="Premium jacket detail" />
+            <img class="floating-img bottom" src="https://images.unsplash.com/photo-1506629905607-d405b7a30db9?auto=format&fit=crop&w=700&q=80" alt="Classic men's accessories" />
+            <div class="discount-card">
+              <span>Limited Drop</span>
+              <strong>Up to 30% OFF</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Tempo brand benefits">
+      <div class="marquee-track">
+        <span>Premium Fabric</span>
+        <span>Modern Fit</span>
+        <span>Free Shipping Over $50</span>
+        <span>Easy Returns</span>
+        <span>New 2026 Collection</span>
+        <span>Premium Fabric</span>
+        <span>Modern Fit</span>
+        <span>Free Shipping Over $50</span>
+        <span>Easy Returns</span>
+        <span>New 2026 Collection</span>
+      </div>
+    </section>
+
+    <section class="section-padding" id="shop">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Best Sellers</span>
+          <h2>Designed for daily confidence.</h2>
+          <p>Clean product cards, luxury hover effects, and a stronger shopping layout for your portfolio.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="badge">Sale</span>
+              <img src="https://images.unsplash.com/photo-1611312449408-fcece27cdbb7?auto=format&fit=crop&w=900&q=80" alt="Cotton sweater" />
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Signature Cotton Sweater</h3>
+                <p>Soft texture, relaxed fit</p>
+              </div>
+              <div class="price"><span>$45.90</span>$35.00</div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="badge new">New</span>
+              <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=900&q=80" alt="Modern overshirt" />
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Urban Overshirt</h3>
+                <p>Layered street elegance</p>
+              </div>
+              <div class="price">$49.00</div>
+            </div>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-media">
+              <span class="badge">Sale</span>
+              <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=80" alt="Premium casual shirt" />
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Premium Casual Shirt</h3>
+                <p>Fresh fit for weekends</p>
+              </div>
+              <div class="price"><span>$39.90</span>$29.00</div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center reveal">
+          <a href="#collections" class="btn btn-dark">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="shipping-banner reveal">
+      <div class="container shipping-content">
+        <div>
+          <span class="eyebrow">Fast Delivery</span>
+          <h2>Free shipping on orders over $50</h2>
+        </div>
+        <p>Make your store feel alive with a strong promotional banner and clean call-to-action.</p>
+        <a href="#shop" class="btn btn-light">Start Shopping</a>
+      </div>
+    </section>
+
+    <section class="section-padding" id="collections">
+      <div class="container collections-grid">
+        <article class="collection-card large reveal">
+          <img src="https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=1200&q=80" alt="Men's streetwear collection" />
+          <div>
+            <span>01</span>
+            <h3>Street Essentials</h3>
+            <p>Sharp basics made for daily movement.</p>
+          </div>
+        </article>
+        <article class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1492447166138-50c3889fccb1?auto=format&fit=crop&w=900&q=80" alt="Classic menswear collection" />
+          <div>
+            <span>02</span>
+            <h3>Classic Layers</h3>
+            <p>Clean layers with premium texture.</p>
+          </div>
+        </article>
+        <article class="collection-card reveal">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Luxury accessories collection" />
+          <div>
+            <span>03</span>
+            <h3>Modern Accessories</h3>
+            <p>Small details, strong style.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-padding about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-images reveal">
+          <img src="https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=900&q=80" alt="Men's fashion studio" />
+          <div class="about-card">
+            <strong>Tempo</strong>
+            <span>Built for men who move with style.</span>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">Who We Are</span>
+          <h2>It all started with two guys who loved hats.</h2>
+          <p>
+            Two guys, and one hat to rule them both. Or so we thought — turned out we were in it for the long game,
+            and are on a mission to change menswear for the better.
+          </p>
+          <p>
+            This redesigned version gives Tempo a stronger identity: cleaner sections, better spacing,
+            modern JavaScript interactions, and a layout that feels ready for a real fashion brand.
+          </p>
+          <a href="#contact" class="btn btn-primary">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-padding values-section" id="values">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Our Values</span>
+          <h2>Simple, premium, responsible.</h2>
+        </div>
+        <div class="values-grid">
+          <article class="value-card reveal">
+            <span>01</span>
+            <h3>Quality First</h3>
+            <p>Soft fabrics, strong stitching, and pieces designed to stay in rotation.</p>
+          </article>
+          <article class="value-card reveal">
+            <span>02</span>
+            <h3>Modern Comfort</h3>
+            <p>Menswear that looks sharp without feeling heavy or complicated.</p>
+          </article>
+          <article class="value-card reveal">
+            <span>03</span>
+            <h3>Better Experience</h3>
+            <p>Clean shopping sections, clear offers, and a smooth journey from hero to contact.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter reveal" id="contact">
+      <div class="container newsletter-grid">
+        <div>
+          <span class="eyebrow">Join Tempo</span>
+          <h2>Get the next drop before everyone else.</h2>
+          <p>Subscribe for new arrivals, seasonal offers, and exclusive updates.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm">
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Email address" required />
+          <button class="btn btn-dark" type="submit">Submit</button>
+          <small id="formMessage" aria-live="polite"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand footer-brand"><span class="brand-mark">T</span><span>Tempo</span></a>
+        <p>A modern men’s fashion landing page redesigned for a stronger portfolio presentation.</p>
+        <p class="developer-credit">Designed & developed by <strong>Rami Almohamad</strong>.</p>
+      </div>
+      <div>
+        <h4>Address</h4>
+        <p>Name of street 12<br>Name of city, Post code 123</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="mailto:info@tempo.com">info@tempo.com</a><br><a href="tel:1234567890">123-456-7890</a></p>
+      </div>
+      <div>
+        <h4>Info</h4>
+        <ul>
+          <li><a href="#">Shipping & Returns</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Terms Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" type="button" aria-label="Scroll to top">↑</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
